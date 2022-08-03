@@ -1,0 +1,461 @@
+html {
+font-family: "Calibri light";}
+a {
+        transition: 0.5s;
+}
+body{
+    background-color: #d3bfac}
+
+#barralateral{
+position: fixed;
+width: 300px;
+height: 100%;
+background-color:#060606;
+padding-top: 40px;
+}
+
+#barralateral h1{
+color: azure;
+font-size: 28px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+#barralateral a{
+color: azure;
+text-decoration: none;
+list-style: none;
+font-size: 25px;
+background-color:#060606;
+padding: 10px;
+border-radius: 3px;
+margin-top: 1%;
+}
+
+#barralateral a:hover{
+color: #060606;
+text-decoration: none;
+list-style: none;
+font-size: 28px;
+background-color: rgb(241, 177, 156);
+padding: 5px;
+border-radius: 3px;
+}
+
+#barralateral li{
+padding: 20px;
+text-align: center;
+
+}
+
+.barralateral2{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+height: 100%;
+background-color:#060606;
+text-align: center;
+
+}
+
+.imglogo{
+width: 100px;
+height: 100px;
+border-radius: 50% 50%;
+margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
+text-decoration: none;
+list-style: none;
+}
+
+.conteudo-principal{
+position: absolute;
+left: 300px;
+width: calc(100% - 300px);
+}
+.conteudo-principal h1, h2{
+color: #060606;
+font-size: 39px;
+}
+
+section, footer{
+padding-left: 50px;
+}
+.titulo1{
+padding-left: 50px;
+}
+
+#nossosite{
+padding-left: 0px;
+}
+#nossosite h1{
+padding-left: 0px;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+#nossosite .imgnossosite1{
+height: 560px;
+background-image: url("https://img.freepik.com/fotos-gratis/mulher-na-moda-com-penteado-ondulado-e-labios-vermelhos-posando-do-lado-de-fora-mulher-morena-de-jaqueta-escura-e-oculos-desvia-o-olhar-ao-ar-livre_197531-19328.jpg?t=st=1657997392~exp=1657997992~hmac=557aa41c16699e262510e068040f768342be70e6e2e29e3169864cd67859fb95&w=996");
+background-size: cover;
+background-position: center;  
+}
+#nossosite .imgnossosite1:hover{
+height: 600px;
+background-image: url("https://img.freepik.com/fotos-gratis/masculino-mao-segurando-oculos-isolados_155003-2586.jpg?t=st=1657997304~exp=1657997904~hmac=1bc1f890394188d2f78a0a820034e73f9ea5b99c0ca21827fe41fd43d3dc3043&w=996");
+background-size: cover 4px;
+background-position: center; 
+transition: 2s;
+}
+
+#nossosite::after , #sobrenos::after {
+content:"";
+display: block;
+clear: both;
+margin-bottom: 100px;
+}
+
+#nossosite .minibanner1{
+width: 400px;
+height: 400px;
+background-image: url("https://img.freepik.com/fotos-gratis/mulher-de-cabelo-loiro-otimista-despreocupada-mantem-dancas-de-telefone-celular-com-ritmo-de-musica-favorita-usa-oculos-redondos-jumper-verde-cachecol-quente-ri-alegremente-isolado-sobre-fundo-roxo-se-diverte_273609-58601.jpg?t=st=1657997567~exp=1657998167~hmac=33865137228dcf9a0413a4c92525ed718fb8184975d156ec7f3509638d8e277c&w=996");
+background-position: center;
+background-size: cover;
+float: left;
+padding-top: -10px;
+}
+
+#nossosite .descricao1{
+position: relative;
+right: 150px;
+width: 600px;
+height: 360px;
+float: right;
+text-align: center;
+padding: 20px;
+margin-left: -10px;
+line-height: 1;
+}
+
+#nossosite  .descricao1 p{
+    font-size: 20px;
+padding-top: 20px;
+margin-bottom: 20px;
+line-height: 1;
+}
+
+.buttonleia1{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #C9A592;
+    padding: 10px;
+    }
+        
+    .buttonleia1:hover{
+    text-decoration: none;
+    color: #C9A592;
+    text-align: center;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color:black;
+    padding: 10px;
+    transition: 1s;
+    }
+
+.titulo2 {
+padding-left: 780px;
+margin-bottom: 10px;
+ }
+
+.minibanner2{
+width: 400px;
+height: 400px;
+background-image: url("https://img.freepik.com/fotos-gratis/feliz-jovem-loiro-bonito-usando-e-agarrando-oculos-parecendo-isolado-na-parede-verde-oliva_141793-112498.jpg?t=st=1657997662~exp=1657998262~hmac=45f835df169888151a010a10e2a5f3af83ca7b44e32bd6b5a608b3dafab22abf&w=996");
+background-position: center;
+background-size: cover;
+float: right;
+padding-top: -10px;
+margin-right: 50px;
+}
+        
+.descricao2{
+position: relative;
+right: -100px;
+width: 600px;
+height: 360px;
+float: left;
+text-align: center;
+padding: 20px;
+margin-right: 10px;
+padding-top: 20px;
+margin-bottom: 10px;
+}
+        
+.descricao2 p{
+font-size: 20px;
+padding-top: 30px;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.buttonleia2{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #C9A592;
+    padding: 10px;
+    }
+        
+    .buttonleia2:hover{
+    text-decoration: none;
+    color: #C9A592;
+    text-align: center;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color:black;
+    padding: 10px;
+    transition: 1s;
+    }
+.bannermod {
+background-position: center;
+background-size: cover;
+display: inline-block;
+height: 200px;
+}
+
+#modelos, #galeria, #videos{
+        padding-right: 50px;
+        margin-bottom: 50px;
+}
+
+section h2{ 
+    margin-bottom: 10px;
+}
+
+
+.imgs-modelos{
+	width: 18.9%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img-1{
+margin-left: 0;
+background-image: url("1.png");
+}
+
+#img-2{
+    margin-left: 0;
+    background-image: url("2.png");
+    }
+    #img-3{
+        margin-left: 0;
+        background-image: url("3.png");
+        }
+        #img-4{
+            margin-left: 0;
+            background-image: url("4.png");
+            }
+            #img-5{
+                margin-left: 0;
+                background-image: url("5.png");
+                }
+.bannerimg {
+background-position: center;
+ background-size: cover;
+display: inline-block;
+height: 200px;
+                    }
+
+.imgs-galeria{
+width: 18.9%;
+margin-left: .5%;
+margin-right: .5%;
+}
+
+#img-6{
+margin-left: 0;
+background-image: url("bannerduo.jpg");
+}
+
+#img-7{
+margin-left: 0;
+background-image: url("bannerqurt.jpg");
+}
+#img-8{
+margin-left: 0;
+background-image: url("17.png");
+}
+
+#img-9{
+margin-left: 0;
+background-image: url("6.png");
+}
+
+#img-10{
+margin-left: 0;
+background-image: url("8.png");
+}
+
+.bannervd {
+background-position: center;
+background-size: cover;
+display: inline-block;
+height: 200px;
+padding: auto;
+}
+
+.videos-mp3{
+width: 23.9%;
+margin-left: .10%;
+margin-right: .10%;
+}
+
+#video-1{
+margin-left: 0;
+}
+
+#video-2{
+margin-left: 0;
+}
+
+#video-3{
+margin-left: 0;
+
+}
+#video-4{
+margin-left: 0;
+}
+    
+.fomulario{
+width: 700px;
+text-align: center;
+width: calc(100% - 300px);
+
+}
+#contatos h2{
+    text-align: justify;
+    display: inline-block;
+    height: 100px;
+
+    width: calc(100% - 300px);
+    margin-left: 20px;
+    }
+
+#contatos{
+text-align: justify;
+display: inline-block;
+height: 100px;
+padding: 10px;
+width: calc(100% - 300px);
+margin-left: 20px;
+}
+.fomulario input[type=text], .fomulario textarea {
+margin-left: 30px;
+position: relative;
+width: 50%;
+text-align: justify;
+display: block;
+padding: 5px;
+margin-bottom: 20px;
+font-size: 20px;
+font-family: "calibri light";
+background-color: #c2b2aa;
+
+}
+
+.fomulario textarea {
+text-align: justify;
+height: 200px;
+}
+
+.fomulario input[type=submit] {
+    text-decoration: none;
+    color: black;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #C9A592;
+    padding: 10px;
+    text-align: justify;
+    margin-left: -250px;
+    }
+        
+    .fomulario input[type=submit]:hover{
+    text-decoration: none;
+    color: #C9A592;
+    font-family: "calibri light";
+    font-size: 20px;
+    border-width: bold;
+    border-radius: 2px 2px 2px 2px;
+    background-color:black;
+    padding: 10px;
+    transition: 1s;
+    text-align: center;
+ 
+}
+
+footer {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+footer p{
+    margin-top: 10px;
+    color:  #060606;
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+footer li{
+    color:  #060606;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    footer a{
+        color:  #ac5b76;
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+    }
+
+    footer a:hover{
+        color:  #1f1e1e;
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+    }
